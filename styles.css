@@ -144,6 +144,8 @@ h3 {
   z-index: 2;
   display: inline-flex;
   align-items: center;
+  max-width: 100%;
+  height: 100%;
 }
 
 .brand-frame {
@@ -153,9 +155,17 @@ h3 {
   background: var(--white);
 }
 
+.brand .brand-frame {
+  max-width: 100%;
+  height: 100%;
+}
+
 .brand img {
   width: 236px;
+  max-width: 100%;
+  max-height: 100%;
   height: auto;
+  object-fit: contain;
 }
 
 .primary-nav {
@@ -1106,7 +1116,9 @@ a.contact-item:hover {
 
 .footer-brand img {
   width: 190px;
+  max-width: 100%;
   height: auto;
+  object-fit: contain;
 }
 
 .footer-legal {
