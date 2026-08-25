@@ -918,16 +918,10 @@ h3 {
 }
 
 .person-info {
-  padding: 24px 25px 28px;
-}
-
-.person-info p {
-  margin-bottom: 6px;
-  color: var(--blue-deep);
-  font-size: 0.67rem;
-  font-weight: 800;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  min-height: 76px;
+  padding: 18px 25px;
 }
 
 .person-info h3 {
