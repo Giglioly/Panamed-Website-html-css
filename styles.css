@@ -694,6 +694,10 @@ h3 {
   color: var(--muted);
 }
 
+#approach-title .highlight {
+  color: var(--blue-deep);
+}
+
 .approach-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
